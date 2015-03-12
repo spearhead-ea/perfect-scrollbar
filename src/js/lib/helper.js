@@ -8,7 +8,7 @@ var cls = require('./class')
 
 exports.toInt = function (x) {
   if (typeof x === 'string') {
-    return parseInt(x, 10) || 0;
+    return parseInt(x, 10);
   } else {
     return ~~x;
   }
